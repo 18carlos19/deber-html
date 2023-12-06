@@ -1,0 +1,158 @@
+body {
+     
+      font-family: Arial, sans-serif, ;
+      background-color: #f3e6e6;
+      margin: 0;
+      padding: 20px; 
+      background-image: url("https://png.pngtree.com/background/20230521/original/pngtree-abstract-black-and-red-abstract-backgrounds-hd-wallpapers-picture-image_2683625.jpg")
+
+ }
+  h1{
+      color: #f8d50b;
+      text-align: center;
+      background-color: #fd1707;
+      border-radius: 15px;
+  }
+
+h6 {
+      
+      color: #0b56f8;
+      text-align: center;
+}
+
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     flex-wrap: wrap;
+     max-width: 800px;
+     margin: 10px auto;
+     /*background-color: #fff;*/
+     border-radius: 10px;
+     padding: 20px;
+     /*box-shadow: 0 1px 10px rgba(219, 109, 109, 0.5);*/
+     font-size: 32px;
+} 
+
+.boton {
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #f15252;
+      color: #fdf4f4;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.5s ease-in-out;
+      
+}
+.boton:hover {
+      background-color: #f706be;
+      padding: 10px 20px;
+} 
+.boton {
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #f15252;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.5s ease-in-out;
+      
+}
+.boton:hover {
+      background-color: #f706be;
+      padding: 10px 20px;
+      
+}
+input {
+      width: 100%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+
+#resp {
+      display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  word-wrap: break-word;
+  margin: 0px;
+  color:#fff;
+  font-weight: 900;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+  font-size: 30px; 
+}
+/*Prueba*/
+#secuencia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 80%;
+      overflow: auto; 
+      max-height: 400 px;
+      margin: 0 auto;
+      color:hsl(253, 62%, 21%);
+      font-weight: 900;
+      background-color: #f8eded;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 10px 15px rgb(253, 8, 151);
+      }
+ /*Prueba este boton*/     
+.botones{
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 5px;
+}
+/*Codigo de marlon DV*/
+/*.Regresar{
+            --glow-color: rgb(217, 176, 255);
+            --glow-spread-color: rgba(191, 123, 255, 0.781);
+            --enhanced-glow-color: rgb(231, 206, 255);
+            --btn-color: rgb(100, 61, 136);
+            border: .25em solid var(--glow-color);
+            padding: 1em 3em;
+            color: var(--glow-color);
+            font-size: 25px;
+            font-weight: bold;
+            background-color: var(--btn-color);
+            border-radius: 1em;
+            outline: none;
+            box-shadow: 0 0 1em .25em var(--glow-color),
+                   0 0 4em 1em var(--glow-spread-color),
+                   inset 0 0 .75em .25em var(--glow-color);
+            text-shadow: 0 0 .5em var(--glow-color);
+            position: relative;
+            transition: all 0.3s;
+           }
+           button::after {
+            pointer-events: none;
+            content: "";
+            position: absolute;
+            top: 120%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--glow-spread-color);
+            filter: blur(2em);
+            opacity: .7;
+            transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+           }
+           button:hover {
+            color: var(--btn-color);
+            background-color: var(--glow-color);
+            box-shadow: 0 0 1em .25em var(--glow-color),
+                   0 0 4em 2em var(--glow-spread-color),
+                   inset 0 0 .75em .2
+
+}*/
+     

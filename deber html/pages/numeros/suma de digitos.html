@@ -1,0 +1,13 @@
+SumaDivisores(){
+        
+    let sumaPar = 0;
+   let cantidadImpar = 0;
+   for (let digito of numero.toString()) {
+     if (parseInt(digito) % 2 === 0) {
+       sumaPar += parseInt(digito);
+     } else {
+       cantidadImpar += 1;
+     }
+   }
+   return [sumaPar, cantidadImpar];
+ }
